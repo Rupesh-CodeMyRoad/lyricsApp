@@ -24,7 +24,6 @@ class _MyAppState extends State<MyApp> {
         currentIndex: currentTabIndex,
         onTap: (value) {
           print("Current Index is $value");
-          print("$currentTabIndex");
           currentTabIndex = value;
           setState(() {});
         },
